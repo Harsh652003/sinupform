@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.cantainer{
+    Width:50%;   
+   margin:150px auto;
+}
+.main{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.heading{
+    color: #fff;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+   
+}
+
+.inputfiled {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+.inputField::placeholder{
+    color: white;
+}
+.inputField:focus{
+    outline: none;
+}
+
+.div1{
+    font-size: 15px;
+    color: #fff;
+}
+.checkbox{
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+  }
